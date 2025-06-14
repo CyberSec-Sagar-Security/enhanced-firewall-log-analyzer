@@ -1,0 +1,39 @@
+# Core dependencies for SOC Firewall Log Analyzer
+win10toast==0.9          # Windows toast notifications
+colorama==0.4.6          # Color-coded terminal output
+loguru==0.7.2            # Advanced logging capabilities
+python-evtx==0.8.1       # Windows Event Log (.evtx) parsing (optional)
+openpyxl==3.1.2          # Excel (.xlsx) file creation and editing
+pandas==2.1.3            # Data analysis and Excel export capabilities
+
+# Advanced Features Dependencies
+streamlit==1.28.1        # GUI Dashboard web interface
+plotly==5.17.0           # Interactive charts and graphs
+jinja2==3.1.2            # PDF report template engine
+weasyprint==60.2         # HTML to PDF conversion
+schedule==1.2.0          # Task scheduling system
+
+# Optional dependencies for enhanced functionality:
+# - watchdog (for advanced file monitoring)
+# - requests (for threat intelligence updates)
+# - python-dateutil (for advanced date parsing)
+
+# Standard library modules (no installation needed):
+# - argparse (command line parsing)
+# - csv (CSV file handling)
+# - json (JSON processing)
+# - datetime (time/date operations)
+# - os (file system operations)
+# - sys (system operations)
+# - re (regular expressions)
+# - collections (data structures)
+# - typing (type hints)
+# - uuid (unique ID generation)
+# - threading (multi-threading support)
+# - queue (thread-safe queues)
+# - pathlib (modern path handling)
+# - dataclasses (structured data classes)
+# - time (time operations)
+# - base64 (encoding/decoding)
+# - shutil (file operations)
+# - subprocess (process execution)

@@ -1,0 +1,23 @@
+include README.md
+include LICENSE
+include requirements.txt
+include *.py
+recursive-include test_logs *.csv
+recursive-include templates *.html *.css *.js
+recursive-include config *.json
+recursive-include docs *.md *.rst
+recursive-include gui *.py
+recursive-include alerts *.py
+recursive-include detectors *.py
+recursive-include parsers *.py
+recursive-include utils *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * *.log
+recursive-exclude * *.bak
+recursive-exclude * *.tmp
+exclude logs/*
+exclude reports/*
+exclude .git*
+exclude *.bat
+exclude *.sh
