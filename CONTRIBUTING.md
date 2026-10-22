@@ -217,7 +217,6 @@ soc-firewall-analyzer/
 ├── detectors/        # Threat detection algorithms  
 ├── parsers/          # Log format parsers
 ├── utils/            # Utility modules and helpers
-├── gui/              # Streamlit dashboard
 ├── tests/            # Test suites
 ├── docs/             # Documentation
 ├── examples/         # Usage examples

@@ -93,7 +93,7 @@ Add any other context, mockups, diagrams, or examples about the feature request 
 **Example Usage:**
 ```bash
 # Show how the feature would be used
-python enhanced_main.py --new-feature --option value
+python main.py --new-feature --option value
 ```
 
 **Expected Output:**
