@@ -5,6 +5,19 @@ All notable changes to the SOC Firewall Log Analyzer will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Planned
+- Full rebuild as 3.0.0. Scope, milestones and boundaries are in `docs/SCOPE.md`; security requirements are in `docs/THREAT_MODEL.md`.
+
+### Removed
+- Dead, duplicated or out-of-scope files: `enhanced_main.py`, `launcher.py`, `deploy_to_github.py`, `gui/dashboard.py` (Streamlit), `utils/excel_report.py`, `utils/time_utils.py`, `setup.py`, `MANIFEST.in`, `DEPLOYMENT.md`, `test_logs/clean_windows_fw.csv`.
+- Broken CI workflow (Python 3.8, deprecated `upload-artifact@v3`, steps referencing removed scripts). New CI arrives in rebuild milestone M0.
+- `streamlit` and `plotly` from `requirements.txt`.
+
+### Changed
+- README now describes the rebuild and the known defects in the legacy code, replacing the old feature claims.
+
 ## [2.0.0] - 2025-06-15
 
 ### 🚀 Major Release - Enhanced SOC Edition

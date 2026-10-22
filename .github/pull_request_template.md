@@ -31,7 +31,7 @@ Describe the manual testing performed:
 ```bash
 # Commands used for testing
 python main.py --logfile test_logs/sample_windows_fw.csv --parser windows
-python enhanced_main.py --logfile test_logs/sample_pfsense.csv --parser pfsense --mitre
+python main.py --logfile test_logs/sample_pfsense.csv --parser pfsense --mitre
 ```
 
 **Test Results:**
